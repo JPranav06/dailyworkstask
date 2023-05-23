@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.loginpage{
+    padding-top: 15em;
+    height: 100vh;
+    background: linear-gradient(to right,#060047, #B3005E,#E90064,#FF5F9E, #FF5F9E,#E90064,#B3005E,#060047);
+}
+.login{
+    text-align: center;
+}
+input[type=text]{
+    padding: 1em;
+    width: 33%;
+}
+input[type=password]{
+    padding: 1em;
+    width: 33%;
+}
+.lbutton{
+    background-color: black;
+    color:white;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.newuser{
+    text-align: center;
+    padding-top: 2em;
+    color: white;
+}
+@media only screen and (max-width: 1240px) {
+    h1{
+        font-size: 50px;
+    }
+    input[type=text]{
+        padding: 1em;
+        width: 38%;
+    }
+    input[type=password]{
+        padding: 1em;
+        width: 38%;
+    }
+}
+.span3{
+    color: green;
+}
