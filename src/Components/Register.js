@@ -29,6 +29,9 @@ const Register = () => {
 
       navigate('/login'); 
     }
+    const alreadyUser = () => {
+      navigate('/login')
+    }
   };
 
   return (
@@ -75,7 +78,7 @@ const Register = () => {
         </div>
       </form>
       <div className='alreadyuser'>
-        <h5>Already a user? click here to <a href='/login'>login</a></h5>
+        <h5>Already a user? click here to <button  onClick = {alreadyUser}>login<button/></h5>
       </div>
     </div>
   );
